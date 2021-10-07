@@ -1,0 +1,34 @@
+#contato {
+    font-family: 'Ubuntu', sans-serif;
+    color: #FF4081;
+    font-size: 40px;
+    position: absolute;
+    left: 10%;
+    right: 68.95%;
+    top: 0%;
+    bottom: 89.02%;
+    font-style: normal;
+    font-weight: bold;
+}
+#botao {
+    Width: 108px;
+    Height: 32px;
+    position: absolute;
+    left: 0.6%;
+    right: 77.62%;
+    top: 93.32%;
+
+    background: #FF4081;
+    border-radius: 15px;
+    border-color:#FF4081;
+}
+
+#imagem {
+    Width: 444px;
+    Height: 444px;
+    Top: 199px;
+    Left: 833px;
+    position: absolute;
+    left: 833px;
+    top: 199px;
+}
