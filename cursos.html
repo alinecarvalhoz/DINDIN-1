@@ -1,87 +1,151 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Aline Mizumukai">
+
     <!-- Fonte Google para teste -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
-    <!-- Bootstrap para teste -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
-    
+
     <title>Cursos</title>
 
     <!-- Css para teste -->
     <style>
-        *{
+        * {
+            /* Prática para eliminar os paddings e margins iniciais dos elementos */
+            padding: 0;
+            margin: 0;
+            /* Faz com que o conteúdo fique dentro do seu bloco */
+            box-sizing: border-box;
             font-family: 'Ubuntu', sans-serif;
-            padding: 10px;
+        }
+        h1,
+        h2 {
+            font-weight: bold;
+            color: #FF4081;
         }
 
+        h1 {
+            font-size: 60px;
+            line-height: 69px;
+            text-transform: capitalize;
+        }
+
+        h2{
+            font-size: 35px;
+            line-height: 40px;
+        }
+        h6{
+            font-size: 20px;
+            line-height: 23px;
+            color: #555555;
+        }
+        .introCursos{
+            margin: 80px;
+        }
+        .cursos{
+            display: flex;
+            margin: 80px;
+        }
+        .card{
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 21px;
+            color: #000000;
+        }
+        .botaoVerde {
+            width: 233px;
+            height: 51px;
+            background: #419488;
+            border-radius: 62px;
+            border: none;
+            font-size: 20px;
+            line-height: 23px;
+            color: #FFFFFF;
+        }
+        .linha {
+            height: 5px;
+            width: 1244px;
+            margin-left: 82px;
+            background: #C4C4C4;
+        }
+        header, footer{
+            background: #2E948A;
+        }
 
     </style>
-
 </head>
+
 <body>
     <!-- Header Ana -->
+    <header>
+        <div>Teste</div>
+    </header>
+
     <main>
-        <div>
+        <div class="introCursos">
             <h1>Cursos</h1>
-            <p>Educação financeira é tudo de bom</p>
+            <h6>Educação financeira é tudo de bom</h6>
         </div>
-        <div class="row">
-            <div class="col-12 col-md-6">
+        <div class="cursos">
+            <div>
                 <img src="./imagens/ilustra-poupando.png" alt="Investimento para iniciantes">
             </div>
-            <div class="col-12 col-md-6">
+            <div class="card">
                 <h2>Investimento para iniciantes</h2>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
                     doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                    veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim 
-                    ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+                    veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+                    ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
                     consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
-                <button>começar agora</button>
-            </div>            
+                <button class="botaoVerde" onclick="location.href='index.html'">começar agora</button>
+            </div>
         </div>
-        <div>
-            <br>    <!-- COMO FAZER A LINHA? -->
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-6">
+        <hr class="linha">
+        <div class="cursos">
+            <div>
                 <img src="./imagens/ilustra-investimento.png" alt="Poupando e Rendendo">
             </div>
-            <div class="col-12 col-md-6">
+            <div class="card">
                 <h2>Poupando e Rendendo</h2>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
-                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
-                    veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim 
-                    ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                    veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+                    ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
                     consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
-                <button>começar agora</button>
-            </div>            
+                <button class="botaoVerde" onclick="location.href='index.html'">começar agora</button>
+            </div>
         </div>
-        <div>
-            <br>    <!-- COMO FAZER A LINHA? -->
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-6">
+        <hr class="linha">
+        <div class="cursos">
+            <div>
                 <img src="./imagens/ilustra-independencia.png" alt="Independência Financeira">
             </div>
-            <div class="col-12 col-md-6">
+            <div class="card">
                 <h2>Independência Financeira</h2>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
-                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
-                    veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim 
-                    ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                    veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+                    ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
                     consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
-                <button>começar agora</button>
-            </div>            
+                <button class="botaoVerde" onclick="location.href='index.html'">começar agora</button>
+            </div>
         </div>
 
     </main>
-    <!-- Footer Ana -->   
+    <!-- Footer Ana -->
+    <footer>
+        <div>Teste</div>
+    </footer>
 </body>
+
 </html>
