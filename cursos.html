@@ -7,89 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Aline Mizumukai">
 
-    <!-- Fonte Google para teste -->
+    <!-- Fonte -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
+    
+    <!-- Css -->
+    <link rel="stylesheet" type="text/css" href="cursos.css">
 
     <title>Cursos</title>
-
-    <!-- Css para teste -->
-    <style>
-        * {
-            /* Prática para eliminar os paddings e margins iniciais dos elementos */
-            padding: 0;
-            margin: 0;
-            /* Faz com que o conteúdo fique dentro do seu bloco */
-            box-sizing: border-box;
-            font-family: 'Ubuntu', sans-serif;
-        }
-        h1,
-        h2 {
-            font-weight: bold;
-            color: #FF4081;
-        }
-
-        h1 {
-            font-size: 60px;
-            line-height: 69px;
-            text-transform: capitalize;
-        }
-
-        h2{
-            font-size: 35px;
-            line-height: 40px;
-        }
-        h6{
-            font-size: 20px;
-            line-height: 23px;
-            color: #555555;
-        }
-        .introCursos{
-            margin: 80px;
-        }
-        .cursos{
-            display: flex;
-            margin: 80px;
-        }
-        .card{
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            font-weight: 300;
-            font-size: 18px;
-            line-height: 21px;
-            color: #000000;
-        }
-        .botaoVerde {
-            width: 233px;
-            height: 51px;
-            background: #419488;
-            border-radius: 62px;
-            border: none;
-            font-size: 20px;
-            line-height: 23px;
-            color: #FFFFFF;
-        }
-        .linha {
-            height: 5px;
-            width: 1244px;
-            margin-left: 82px;
-            background: #C4C4C4;
-        }
-        header, footer{
-            background: #2E948A;
-        }
-
-    </style>
 </head>
 
 <body>
     <!-- Header Ana -->
-    <header>
-        <div>Teste</div>
-    </header>
+
+    
 
     <main>
         <div class="introCursos">
@@ -97,10 +29,10 @@
             <h6>Educação financeira é tudo de bom</h6>
         </div>
         <div class="cursos">
-            <div>
+            <div class="cursosImg">
                 <img src="./imagens/ilustra-poupando.png" alt="Investimento para iniciantes">
             </div>
-            <div class="card">
+            <div class="cursosInfo">
                 <h2>Investimento para iniciantes</h2>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
                     doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
@@ -112,10 +44,10 @@
         </div>
         <hr class="linha">
         <div class="cursos">
-            <div>
+            <div class="cursosImg" >
                 <img src="./imagens/ilustra-investimento.png" alt="Poupando e Rendendo">
             </div>
-            <div class="card">
+            <div class="cursosInfo" >
                 <h2>Poupando e Rendendo</h2>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
                     doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
@@ -127,10 +59,10 @@
         </div>
         <hr class="linha">
         <div class="cursos">
-            <div>
+            <div class="cursosImg" >
                 <img src="./imagens/ilustra-independencia.png" alt="Independência Financeira">
             </div>
-            <div class="card">
+            <div class="cursosInfo" >
                 <h2>Independência Financeira</h2>
                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
                     doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
@@ -143,9 +75,8 @@
 
     </main>
     <!-- Footer Ana -->
-    <footer>
-        <div>Teste</div>
-    </footer>
+
+    
 </body>
 
 </html>
