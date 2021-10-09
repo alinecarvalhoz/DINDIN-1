@@ -1,0 +1,77 @@
+* {
+    color: #FF4081;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p{
+    color: black;
+}
+
+.video {
+    cursor: pointer;
+}
+
+#titulo {
+    
+    position: absolute;
+    width: 512px;
+    height: 126px;
+    left: 13%;
+    top: 4%;
+    font-size: 55px;
+}
+
+#imagem {
+    position: absolute;
+    left: 52.15%;
+    right: 21.46%;
+    top: 9.38%;
+    bottom: 72.49%;
+}
+
+#descricao {
+    position: absolute;
+    left: 13%;
+    top: 31%;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+#video1 {
+    position: absolute;
+    left: 13%;
+    top: 100%;
+}
+
+#video2 {
+    position: absolute;
+    left: 13%;
+    top: 165%;
+}
+
+#video3 {
+    position: absolute;
+    left: 13%;
+    top: 230%;
+}
+
+#texto1 {
+    position: absolute;
+    left: 52.15%;
+    top: 95%;
+    font-size: 20px;
+}
+
+#texto2 {
+    position: absolute;
+    left: 52.15%;
+    top: 160%;
+    font-size: 20px;
+}
+
+#texto3 {
+    position: absolute;
+    left: 52.15%;
+    top: 225%;
+    font-size: 20px;
+}
