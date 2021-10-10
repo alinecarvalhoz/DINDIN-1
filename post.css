@@ -47,10 +47,6 @@ h1 {
 }
 
 .container {
-    /* text-align: center;
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto; */
     position: absolute;
     width: 1032px;
     height: 1061px;
@@ -70,15 +66,9 @@ h1 {
 }
 
 img.main{
-    /* width: 1032px;
-    height: 465px;
-    left: 204px;
-    top: 381px;     */
-
     position: absolute;
     width: 1032px;
     height: 465px;
-    /* left: 204px; */
     top: 381px;
 }
 
@@ -139,7 +129,6 @@ img.main{
     position: absolute;
     width: 344px;
     height: 35.71px;
-    /* left: 128px; */
     top: 310px;
 
     font-family: Ubuntu;
@@ -183,7 +172,6 @@ img.main{
     position: absolute;
     width: 293px;
     height: 73.89px;
-    /* left: 154px; */
     top: 400px;
     font-family: Ubuntu;
     font-style: normal;
@@ -210,4 +198,94 @@ img.main{
     text-align: center;
     
     color: #FFFFFF;   
+}
+
+/*Adequar para dispositivos mobile*/
+@media only screen and (max-device-width: 768px) {  
+    .container {
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 0px;
+        width: 360px;
+    }
+
+    .container img {
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+        left: 0;        
+    }
+
+    .container h1 {
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+        left: 0;
+        FONT-SIZE: revert;
+    }
+
+    .container .data {
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+        left: 0;
+        margin-top: 70px;  
+    }
+
+    .textos h2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cursos {
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+        top: 3730px;        
+        height: 2000px;
+    }
+
+    .cursos .curso1 {
+        width: 100%;
+        left: 0px;
+        top: 70px;
+    }
+
+    .cursos .curso2 {
+        width: 100%;
+        left: 0px;
+        top: 705px;
+    }
+
+    .cursos .curso3 {
+        width: 100%;
+        left: 0px;
+        top: 1350px;
+    }
+
+    .cursos h2 {
+        display: flex;
+        flex-direction: column;  
+        width: 360px;
+        left: 0;
+        font-size: revert;
+    }
+
+    .cursos h3 {
+        display: flex;
+        flex-direction: column;  
+        width: 360px;
+        left: 0;
+        font-size: revert;
+    }
+   
+    .cursos p {
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+        left: 0;
+    }
 }
