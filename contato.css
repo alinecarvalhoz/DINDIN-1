@@ -1,5 +1,7 @@
-#contato {
+* {
     font-family: 'Ubuntu', sans-serif;
+}
+#contato {
     color: #FF4081;
     font-size: 40px;
     position: absolute;
@@ -11,8 +13,8 @@
     font-weight: bold;
 }
 #botao {
-    Width: 108px;
-    Height: 32px;
+    width: 108px;
+    height: 32px;
     position: absolute;
     left: 7%;
     right: 77.62%;
@@ -27,16 +29,16 @@
 
 #imagem {
     position: absolute;
-    Width: 444px;
-    Height: 444px;
-    Top: 30px;
-    Left: 765px;
+    width: 444px;
+    height: 444px;
+    top: 30px;
+    left: 765px;
 }
 
 #nome {
-    Width: 493px;
-    Height: 32px; 
-    Radius: 7px;
+    width: 493px;
+    height: 32px; 
+    radius: 7px;
     border: 1px solid #686868; 
     border-radius: 7px;
     background: #FFFFFF;
@@ -60,18 +62,18 @@
     border: 1px solid #686868;
     box-sizing: border-box;
     border-radius: 7px; 
-    Width: 493px;
-    Height: 32px;
-    Radius: 7px;
+    width: 493px;
+    height: 32px;
+    radius: 7px;
     font-family: 'Ubuntu';
     font-size: 15px;
      
 }
 
 #mensagem {
-    Width: 493px;
-    Height: 193px;
-    Radius: 7px;
+    width: 493px;
+    height: 193px;
+    radius: 7px;
     position: absolute;
     left: 7%;
     right: 0%;
@@ -83,6 +85,4 @@
     border-radius: 7px;
     font-family: 'Ubuntu';
     font-size: 15px;
-    
-
 }

@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+}
+
+h1,h2 {
+    font-weight: bold;
+    color: #FF4081;
+}
+h1 {
+    font-size: 60px;
+    line-height: 69px;
+    text-transform: capitalize;
+}
+h2{
+    font-size: 35px;
+    line-height: 40px;
+}
+h6{
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 23px;
+    color: #555555;
+}
+
+.introCursos{
+    margin: 81px 10px 95px 82px;
+}
+.cursos{
+    display: flex;    
+    margin: 0px 30px 68px 112px;
+}
+.cursosImg{
+    align-items: center;
+}
+.cursosInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 52px;
+    max-width: 724px;;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.botaoVerde {
+    width: 233px;
+    height: 51px;
+    background: #419488;
+    border-radius: 62px;
+    border: none;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.botaoVerde:hover{
+    cursor: pointer;
+    background: #187a6c;
+}
+.linha {
+    height: 5px;
+    width: auto;
+    margin: 0px 30px 100px 98px;
+    background: #C4C4C4;
+}
+
+/*Adequar para dispositivos mobile*/
+@media (max-width: 900px){  
+    .introCursos{
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cursos{
+        flex-wrap: wrap;
+        flex-basis: 100%;
+        margin: auto;
+        padding: 5px;
+        width: 100%;
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+    }
+    .botaoVerde{
+        margin: 10px;
+        width: auto;
+    }
+}
+
+
