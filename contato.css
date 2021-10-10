@@ -1,0 +1,88 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+#contato {
+    color: #FF4081;
+    font-size: 40px;
+    position: absolute;
+    left: 7%;
+    right: 68.95%;
+    top: 3.5%;
+    bottom: 89.02%;
+    font-style: normal;
+    font-weight: bold;
+}
+#botao {
+    width: 108px;
+    height: 32px;
+    position: absolute;
+    left: 7%;
+    right: 77.62%;
+    top: 74%;
+    font-family: 'Ubuntu', sans-serif;
+    color:white;
+    background: #FF4081;
+    border-radius: 15px;
+    border-color:#FF4081;
+    cursor: pointer; 
+}
+
+#imagem {
+    position: absolute;
+    width: 444px;
+    height: 444px;
+    top: 30px;
+    left: 765px;
+}
+
+#nome {
+    width: 493px;
+    height: 32px; 
+    radius: 7px;
+    border: 1px solid #686868; 
+    border-radius: 7px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0%;
+    left: 7%;
+    top: 21.48%;    
+    bottom: 70.88%;
+    font-family: 'Ubuntu';
+    font-size: 15px;
+    
+}
+
+#email {
+    position: absolute;
+    left: 7%;
+    top: 30%;
+    bottom: 59.67%;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    box-sizing: border-box;
+    border-radius: 7px; 
+    width: 493px;
+    height: 32px;
+    radius: 7px;
+    font-family: 'Ubuntu';
+    font-size: 15px;
+     
+}
+
+#mensagem {
+    width: 493px;
+    height: 193px;
+    radius: 7px;
+    position: absolute;
+    left: 7%;
+    right: 0%;
+    top: 39%; 
+    bottom: 10.26%;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    box-sizing: border-box;
+    border-radius: 7px;
+    font-family: 'Ubuntu';
+    font-size: 15px;
+}
