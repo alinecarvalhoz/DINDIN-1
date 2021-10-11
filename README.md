@@ -1,7 +1,5 @@
 # Empresa DINDIN
 
-<img src="./imagens/logo-footer.png" style="background-color: #2E948A">
-
 Desafio &lt;pra.elas> banco BV - Turma 2
 
 
