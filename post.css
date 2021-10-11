@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap'); 
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+h1 { 
+    position: absolute;
+    width: 758px;
+    height: 46px;
+    left: 106px;
+    top: 228px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    color: #FF4081;    
+}
+
+.data {
+    margin-top: 30px;
+    margin-bottom: 74px;
+    position: absolute;
+    width: auto;
+    height: 21px;
+    left: 414px;
+    top: 286px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9D9D9D;
+    
+}
+
+.container {
+    position: absolute;
+    width: 1032px;
+    height: 1061px;
+    left: 204px;
+    top: 910px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    font-feature-settings: 'kern' off;
+    color: #000000;
+}
+
+.container p {
+    text-align: justify;
+}
+
+img.main{
+    position: absolute;
+    width: 1032px;
+    height: 465px;
+    top: 381px;
+}
+
+.foto{
+    margin-left: 204px;
+    margin-right: 204px;
+    margin-bottom: 64px
+}
+
+.textos {
+    position: absolute;
+    width: 1032px;
+    height: 1061px;
+    /* left: 204px; */
+    top: 910px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    font-feature-settings: 'kern' off;
+    color: #000000;
+}
+
+.textos h2{
+    color: #419488;
+    text-align: left;
+}
+
+.cursos {
+    position: absolute;
+    width: 1440px;
+    height: 899px;
+    left: 0px;
+    top: 2900px;
+    background: #F7F7F7;    
+}
+
+.cursos h2 { 
+    position: absolute;
+    width: 528px;
+    height: 57px;
+    left: 456px;
+    top: 79x;
+    
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    
+    color: #FF4081;
+}
+
+.cursos h3 {
+    position: absolute;
+    width: 344px;
+    height: 35.71px;
+    top: 310px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FF4081;
+}
+
+.cursos .curso1{
+    position: absolute;
+    left: 10.83%;
+    right: 69.17%;
+    top: 237px;
+    display: flex;
+    justify-content: center;
+}
+
+.cursos .curso2{
+    position: absolute;
+    left: 43.26%;
+    right: 40.21%;
+    top: 237px;
+    display: flex;
+    justify-content: center;
+}
+
+.cursos .curso3{
+    position: absolute;
+    left: 74.03%;
+    right: 12.99%;
+    top: 237px;
+    display: flex;
+    justify-content: center;
+}
+
+.cursos p{
+    position: absolute;
+    width: 293px;
+    height: 73.89px;
+    top: 400px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.cursos button {
+    position: absolute;
+    width: 233px;
+    height: 62.81px;
+    top: 550px;
+    background: #FF4081;
+    border: #FF4081;
+    border-radius: 62px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    
+    color: #FFFFFF;   
+}
+
+/*Adequar para dispositivos mobile*/
+@media only screen and (max-device-width: 768px) {  
+    .container {
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 0px;
+        width: 360px;
+    }
+
+    .container img {
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+        left: 0;        
+    }
+
+    .container h1 {
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+        left: 0;
+        FONT-SIZE: revert;
+    }
+
+    .container .data {
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+        left: 0;
+        margin-top: 70px;  
+    }
+
+    .textos h2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cursos {
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+        top: 3730px;        
+        height: 2000px;
+    }
+
+    .cursos .curso1 {
+        width: 100%;
+        left: 0px;
+        top: 70px;
+    }
+
+    .cursos .curso2 {
+        width: 100%;
+        left: 0px;
+        top: 705px;
+    }
+
+    .cursos .curso3 {
+        width: 100%;
+        left: 0px;
+        top: 1350px;
+    }
+
+    .cursos h2 {
+        display: flex;
+        flex-direction: column;  
+        width: 360px;
+        left: 0;
+        font-size: revert;
+    }
+
+    .cursos h3 {
+        display: flex;
+        flex-direction: column;  
+        width: 360px;
+        left: 0;
+        font-size: revert;
+    }
+   
+    .cursos p {
+        display: flex;
+        flex-direction: column;
+        width: 360px;
+        left: 0;
+    }
+}
