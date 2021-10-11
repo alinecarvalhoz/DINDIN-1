@@ -3,75 +3,84 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+h1{
+    width: 512px;
+    height: 126px;
+    font-size: 55px;
+}
+
+h2{
+    font-size: 33px;
+    margin-bottom: 0px;
+}
+
 p{
     color: black;
+    font-size: 20px;
+    line-height: 23px;
 }
 
 .video {
     cursor: pointer;
 }
 
-#titulo {
+#intro {
+    display: flex;
+    margin: 10px 0px 80px 200px;
+}
+
+#texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px 50px 20px 0px;
+}
+
+#imagem {    
+    margin-top: 20px;
     
-    position: absolute;
-    width: 512px;
-    height: 126px;
-    left: 13%;
-    top: 4%;
-    font-size: 55px;
 }
 
-#imagem {
-    position: absolute;
-    left: 52.15%;
-    right: 21.46%;
-    top: 9.38%;
-    bottom: 72.49%;
+#titulo{
+    margin-bottom: 0px;
 }
 
-#descricao {
-    position: absolute;
-    left: 13%;
-    top: 31%;
-    font-size: 20px;
-    line-height: 23px;
+.aula{
+    display: flex;
+    margin: -30px 0px 40px 200px;
 }
 
-#video1 {
-    position: absolute;
-    left: 13%;
-    top: 100%;
+.descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: -23px 50px 20px 90px;
 }
 
-#video2 {
-    position: absolute;
-    left: 13%;
-    top: 165%;
+#aulas{
+    background-color: #f6f6f6;
+    width: 1340px;
 }
 
-#video3 {
-    position: absolute;
-    left: 13%;
-    top: 230%;
+.linha{
+    height: 3px;
+    width: 1230px;
+    margin: 0px 30px 100px 87px;
+    background: #C4C4C4;
 }
 
-#texto1 {
-    position: absolute;
-    left: 52.15%;
-    top: 95%;
-    font-size: 20px;
+#aula1{
+    margin-top: 70px;
+    
+}
+.espaco{
+    height: 0px;
+    width: 0px;
+    background: #f6f6f6;
 }
 
-#texto2 {
-    position: absolute;
-    left: 52.15%;
-    top: 160%;
-    font-size: 20px;
-}
 
-#texto3 {
-    position: absolute;
-    left: 52.15%;
-    top: 225%;
-    font-size: 20px;
-}
+
+
+
+

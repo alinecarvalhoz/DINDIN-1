@@ -1,47 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="Mirella Duarte">
     <meta name="viewport" content="width=device-width">
     <title>Contato</title>
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
-    
+
     <link rel="stylesheet" type="text/css" href="contato.css">
 </head>
+
 <body>
- <header>
+    <header>
         <!-- CABEÇALHO -->
-</header>
-    <div id="imagem">
-        <img src="imagens/ilustra-contato.png">
-    </div> 
-    <div>
-        <h1 id="contato">Contato</h1>
-        <br>
+    </header>
+    <div id="pagina">
+
+        <div id="formulario">
+
+            <h1 id="contato">Contato</h1>
+
+            <form>
+                <div>
+                    <input type="text" name="nome" placeholder="   nome">
+                </div>
+                <div>
+                    <input type="email" name="email" placeholder="    email">
+                </div>
+                <div>
+                    <textarea name="mensagem" id="mensagem" placeholder="   mensagem" cols="30" rows="10"></textarea>
+                </div>
+
+                <div>
+                    <input type="button" id="botao" value="entrar">
+
+                </div>
+            </form>
+
+        </div>
+        <div id="imagem">
+            <img src="imagens/ilustra-contato.png">
+        </div>
     </div>
-
-    <form>
-            <div>
-               <input type="text" name="nome" id="nome" placeholder="   nome">
-            </div>
-            <div>
-               <input type="email" name="email" id="email" placeholder="    email">
-            </div>
-            <div>
-                    <textarea name="mensagem" id="mensagem" 
-                   placeholder="   mensagem" cols="30" rows="10"></textarea>
-            </div>
-
-            <div>
-                <input type="button" id="botao" value="entrar">
-            
-            </div>
-    </form>
     <footer>
         <!-- RODAPÉ -->
     </footer>
