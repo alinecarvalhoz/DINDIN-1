@@ -14,6 +14,12 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="index.css">
 
     <title>DinDin | Início</title>
@@ -23,26 +29,47 @@
 <body>
     <!-- Início do Cabeçalho -->
     <header>
+        <div class='imagem'>
+            <a href="index.html" id="logobanner"><img src=" logo-header.png " alt=" Logo da header "
+                    title=" Logo da header " /></a>
+        </div>
 
+        <div>
+            <ul class=" lista ">
+                <a href=" cursos.html ">
+                    <li>CURSOS</li>
+                </a>
+                <a href=" blog.html ">
+                    <li>BLOG</li>
+                </a>
+                <a href=" contato.html ">
+                    <li>CONTATO</li>
+                </a>
+            </ul>
+        </div>
     </header>
     <!-- Fim do Cabeçalho -->
 
     <!-- Inicio do Conteudo Principal -->
     <main>
-        <div class='banner'>
+        <section class="banner">
+
             <div id="titulo">
                 <h1>Educação<br> Financeira<br> é tudo de bom</h1>
                 <h2>Vem comigo que te mostro<br> por onde começar</h2>
-                <a id="linkbanner" href="cursos.html">quero saber mais</a>
+                <a id="linkbanner" href="cursos.html"><button>quero saber mais</button></a>
             </div>
 
             <div id="logobanner">
                 <img src="imagens/ilustra-banner.png" alt="Ilustração Banner" title="Ilustração Banner">
             </div>
-        </div>
-        <div class="catalogoCursosBanner">
+
+        </section>
+        <section class="catalogoCursosBanner">
             <div>
-                <img src="imagens/ilustra-poupando.png" alt="Ilustração do curso Investimento para Iniciantes">
+                <img id="invest" src="imagens/ilustra-poupando.png"
+                    alt="Ilustração do curso Investimento para Iniciantes">
+                <h4>Investimento para Iniciantes</h4>
                 <p>
                     Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla
                     pariatur.
@@ -53,8 +80,9 @@
 
             <div>
                 <img src="imagens/ilustra-investimento.png" alt="Ilustração do curso Poupando e Rendendo">
+                <h4>Poupando e Rendendo</h4>
                 <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla
                     pariatur.
                 </p>
 
@@ -63,99 +91,119 @@
 
             <div>
                 <img src="imagens/ilustra-independencia.png" alt="Ilustração do curso Indepêndencia Financeira">
+                <h4>Indepêndencia Financeira</h4>
                 <p>
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    Duis aute irure dolor in reprehenderit in voluptate velit es se cillum dolore eu fugiat nulla
                     pariatur.
                 </p>
 
                 <a href="#"> <button>começar agora</button> </a>
             </div>
 
-        </div>
+        </section>
 
-        <div class="comentarios">
+        <section class="comentarios">
+            <h4>O QUE FALAM SOBRE NÓS</h4>
+            <div id="direita">
 
-            <div>
-                <img src="imagens/icon-wally.png" alt="Ícone do comentador Wally ">
-                <p>
-                    ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam.” <br>
-                    Wally,25
-                </p>
+                <div id="wally">
+                    <div id="imagemwally"> <img src="imagens/icon-wally.png" alt="Ícone do comentador Wally "> </div>
+                    <div id="comentwally">
+                        <p>
+                            ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium,
+                            totam rem aperiam.”
+                        </p>
+                        <h6>
+                            <p>Wally, 25</p>
+                        </h6>
+                    </div>
+                </div>
 
+                <div id="whoopi">
+                    <div id="imagemwhoopi"> <img src="imagens/icon-whoopi.png" alt="Ícone do comentador Whoopi "> </div>
+                    <div id="comentwhoopi">
+                        <p>
+                            ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium,
+                            totam
+                            rem aperiam.”
+                        </p>
+                        <h6>
+                            <p>Whoopi Goldberg, 37</p>
+                        </h6>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div id="esquerda">
+                <div id="jaden">
+                    <div id="imagemjaden"> <img src="imagens/icon-jaden.png" alt="Ícone do comentador Jaden "> </div>
+                    <div id="comentjaden">
+                        <p>
+                            ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium,
+                            totam rem aperiam.”
+                        </p>
+                        <h6>
+                            <p>Jaden Smith, 23</p>
+                        </h6>
+
+                    </div>
+                </div>
+
+                <div id="jane">
+                    <div id="imagemjane"> <img src="imagens/icon-jane.png" alt="Ícone do comentador Jane "> </div>
+                    <div id="comentjaden">
+                        <p>
+                            ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium,
+                            totam rem aperiam.”
+                        </p>
+                        <h6>
+                            <p>Janes Joplin, 29</p>
+                        </h6>
+                    </div>
+                </div>
             </div>
 
-            <div>
-                <img src="imagens/icon-whoopi.png" alt="Ícone do comentador Whoopi ">
-                <p>
-                    ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam
-                    rem aperiam.” <br>
-                    Whoopi Goldberg, 37
-                </p>
+        </section>
 
+        <section class="maisConteudo">
+
+            <h4>MAIS CONTEÚDO PARA VOCÊ</h4>
+
+            <div id="conteudo">
+                <div>
+                    <div id="rectangle" style="width: 319; height: 193px; background: #C4C4C4;"></div>
+                    <h5>Itaque earum rerum</h5>
+                    <p>hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut
+                        perferendis doloribus asperiores repellat.
+                    </p>
+
+                </div>
+
+                <div>
+                    <div id="rectangle" style="width: 319; height: 193px; background: #C4C4C4;"></div>
+                    <h5>Itaque earum rerum</h5>
+                    <p>hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut
+                        perferendis doloribus asperiores repellat.</p>
+
+                </div>
+
+                <div id="ultima">
+                    <div id="rectangle" style="width: 319; height: 193px; background: #C4C4C4;"></div>
+                    <h5>Itaque earum rerum</h5>
+                    <p>hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut
+                        perferendis doloribus asperiores repellat.</p>
+                </div>
             </div>
-
-            <div>
-                <img src="imagens/icon-jaden.png" alt="Ícone do comentador Jaden ">
-                <p>
-                    ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam.” ,<br>
-                    Jaden Smith, 23
-
-                </p>
-
-            </div>
-
-            <div>
-                <img src="imagens/icon-jane.png" alt="Ícone do comentador Jane ">
-                <p>
-                    ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam.” <br>
-                    Janes Joplin, 29
-                </p>
-
-
-            </div>
-
-        </div>
-
-        <div class="maisConteudo">
-            <div>
-                <div id="rectangle" style="width: 319; height: 193px; background: #C4C4C4;"></div>
-                <p>
-                    Itaque earum rerum
-                </p>
-                <p>hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut
-                    perferendis doloribus asperiores repellat.
-                </p>
-
-            </div>
-
-            <div>
-                <div id="rectangle" style="width: 319; height: 193px; background: #C4C4C4;"></div>
-                <p>
-                    Itaque earum rerum
-                </p>
-                <p>hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut
-                    perferendis doloribus asperiores repellat.</p>
-
-            </div>
-
-            <div>
-                <div id="rectangle" style="width: 319; height: 193px; background: #C4C4C4;"></div>
-                <p>
-                    Itaque earum rerum
-                </p>
-                <p>hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut
-                    perferendis doloribus asperiores repellat.</p>
-            </div>
-
             <div id="linkpost">
-                <a href="#">ver todos os posts</a>
+                <a href="#"> <button>ver todos os posts</button> </a>
             </div>
 
-        </div>
+        </section>
     </main>
     <!-- Fim do Conteudo Principal  -->
 

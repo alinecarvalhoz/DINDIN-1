@@ -1,0 +1,298 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 117px;
+    background-color: #2E948A;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: space-between;
+    padding: 18px;
+}
+
+.lista {
+    display: flex;
+    cursor: pointer;
+}
+
+.lista li {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    justify-content: flex-start;
+    margin: 37px;
+}
+
+.lista a {
+    text-decoration: none;
+    text-align: left;
+    font-weight: bold;
+}
+
+.banner {
+    margin: 9%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner #titulo h1 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 69px;
+    color: #FF4081;
+}
+
+.banner #titulo h2 {
+    margin-top: 19px;
+    margin-block-end: 38px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 31px;
+    color: #555555;
+}
+
+.banner #titulo button {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 31px;
+    border: 2px solid #FF4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+    width: 268px;
+    height: 51px;
+    color: #FF4081;
+    cursor: pointer;
+}
+
+.catalogoCursosBanner {
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background: #F7F7F7;
+    flex-basis: 100%;
+}
+
+.catalogoCursosBanner div {
+    margin: 5%;
+    justify-content: center;
+}
+
+.catalogoCursosBanner img {
+    justify-content: center;
+    height: 270px;
+    max-width: 288px;
+    align-items: center;
+}
+
+.catalogoCursosBanner h4 {
+    justify-content: center;
+    width: 110%;
+    margin-top: 10%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: left;
+    color: #FF4081;
+}
+
+.catalogoCursosBanner p {
+    justify-content: center;
+    margin-top: 23px;
+    margin-block-end: 26px;
+    width: 293px;
+    height: 60px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.catalogoCursosBanner a {
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.catalogoCursosBanner button {
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 2px solid #FF4081;
+    background-color: #FF4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+    width: 250px;
+    height: 51px;
+    cursor: pointer;
+}
+
+.comentarios {
+    margin: 9%;
+    box-sizing: border-box;
+    flex-basis: 100%;
+}
+
+.comentarios h4 {
+    margin-block-end: 5%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 43px;
+    color: #009688;
+    width: 100%;
+    height: 100%;
+}
+
+.comentarios h6 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.comentarios img {
+    width: 104px;
+    height: 104px;
+}
+
+.comentarios p {
+    margin-left: 5%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.comentarios #esquerda {
+    width: 45%;
+    height: 50%;
+    float: right;
+}
+
+.comentarios #direita {
+    width: 45%;
+    height: 50%;
+    float: left;
+}
+
+.comentarios #direita #wally {
+    display: inline-flex;
+    margin-block-end: 10%;
+}
+
+.comentarios #direita #whoopi {
+    display: inline-flex;
+}
+
+.comentarios #esquerda #jaden {
+    display: inline-flex;
+    margin-block-end: 10%;
+}
+
+.comentarios #esquerda #jane {
+    display: inline-flex;
+}
+
+.maisConteudo {
+    margin: 0;
+    margin-top: 40%;
+    padding-top: 5%;
+    padding-right: 9%;
+    padding-left: 9%;
+    align-items: center;
+    box-sizing: border-box;
+    flex-basis: 100%;
+    background: #F7F7F7;
+}
+
+.maisConteudo h4 {
+    margin-block-end: 5%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 43px;
+    color: #009688;
+}
+
+.maisConteudo #conteudo {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    box-sizing: border-box;
+    background: #F7F7F7;
+    flex-basis: 100%;
+}
+
+.maisConteudo #rectangle {
+    width: 319px;
+    height: 193px;
+}
+
+.maisConteudo div {
+    padding-right: 10%;
+}
+
+.maisConteudo #ultima {
+    padding-right: 0;
+}
+
+.maisConteudo h5 {
+    margin: 2%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 31px;
+    color: #009688;
+}
+
+.maisConteudo p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20.68px;
+    text-align: left;
+}
+
+.maisConteudo #linkpost button {
+    margin-top: 101px;
+    margin-left: 425px;
+    margin-block-end: 53px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FF4081;
+    border: 2px solid #FF4081;
+    box-sizing: border-box;
+    border-radius: 62px;
+    width: 289px;
+    height: 51px;
+}
