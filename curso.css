@@ -1,7 +1,43 @@
 * {
     color: #FF4081;
     font-family: 'Ubuntu', sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing: border-box; 
 }
+/* css do cabeçalho*/
+
+header{
+    width: 100%;
+    height: 117px;
+    background-color: #2E948A;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content:space-between;
+    padding: 18px;
+    
+}
+
+li{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    justify-content: flex-start;
+    margin: 37px;
+}
+
+a{
+    text-decoration: none;
+    text-align: left;
+    font-weight: bold;
+}
+
+.lista{
+    display: flex;
+    cursor:pointer;
+}
+
+/*css página*/
 
 h1{
     width: 512px;
@@ -26,7 +62,7 @@ p{
 
 #intro {
     display: flex;
-    margin: 10px 0px 80px 200px;
+    margin: 75px 0px 80px 200px;
 }
 
 #texto{
@@ -79,8 +115,71 @@ p{
     background: #f6f6f6;
 }
 
+/* css rodapé */
 
 
+/* responsividade*/
+
+@media (max-width: 1200px) {
+    header{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+
+    #intro{
+        margin: auto;
+        padding: 20px 0 20px 50px;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    h1{
+        margin: auto; 
+    }
+
+    .aula{ 
+        margin: auto;
+        flex-direction: column-reverse;
+        
+    }
+    .descricao{
+        margin-left: 10px;
+    }
+    video{
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .linha{
+        height: 3px;
+        width: 1230px;
+        margin: 0px 30px 100px 2px;
+        background: #C4C4C4;
+    }   
 
 
+}
 
+@media (max-width: 600px){
+    #intro{
+        margin: auto;
+        flex-direction: column;
+        text-align:left;
+    }
+
+    img{
+        width: auto;
+        height: auto;
+    }
+
+    #aulas p {
+        font-size: 3.5vw;
+    }
+
+    video{
+        width: auto;
+        height: auto;
+    }
+
+}
