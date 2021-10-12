@@ -4,9 +4,11 @@
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
 }
-main{
+
+main {
     margin: 1%;
 }
+
 a {
     text-decoration: none;
     color: #000000;
@@ -15,7 +17,6 @@ a {
 .banner {
     display: flex;
     justify-content: space-between;
-
 }
 
 .banner #logobanner img {
@@ -54,7 +55,16 @@ a {
     width: 268px;
     height: 51px;
     color: #FF4081;
+    background: linear-gradient(to right, #FF4081 50%, #FFFFFF 50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
+    transition: all 200ms;
     cursor: pointer;
+}
+
+.banner #titulo button:hover {
+    background-position: left bottom;
+    color: #FFFFFF;
 }
 
 .catalogoCursosBanner {
@@ -64,12 +74,11 @@ a {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-
     flex-basis: 100%;
 }
 
 .catalogoCursosBanner div {
-    margin: 5%;
+    margin: 3%;
     justify-content: center;
 }
 
@@ -82,7 +91,7 @@ a {
 
 .catalogoCursosBanner h4 {
     justify-content: center;
-    width: 110%;
+    width: 115%;
     margin-top: 10%;
     font-style: normal;
     font-weight: bold;
@@ -123,13 +132,24 @@ a {
     line-height: 23px;
     text-align: center;
     color: #FFFFFF;
+
     border: 2px solid #FF4081;
     background-color: #FF4081;
     box-sizing: border-box;
     border-radius: 62px;
     width: 250px;
     height: 51px;
+    background: linear-gradient(to right, #FFFFFF 50%, #FF4081 50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
+    transition: all 200ms;
+
     cursor: pointer;
+}
+
+.catalogoCursosBanner button:hover {
+    background-position: left bottom;
+    color: #FF4081;
 }
 
 .comentarios {
@@ -212,7 +232,6 @@ a {
     align-items: center;
     box-sizing: border-box;
     flex-basis: 100%;
-
 }
 
 .maisConteudo h4 {
@@ -277,26 +296,32 @@ a {
     border-radius: 62px;
     width: 289px;
     height: 51px;
+    background: linear-gradient(to right, #FF4081 50%, #FFFFFF 50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
+    transition: all 200ms;
+}
+
+.maisConteudo #linkpost button:hover {
+    background-position: left bottom;
+    color: #FFFFFF;
 }
 
 @media only screen and (max-width:480px) {
-    *{
+    * {
         padding: 0 auto;
         margin: 2%;
     }
-
-    .banner #titulo h1{
+    .banner #titulo h1 {
         font-size: 65px;
         line-height: 60px;
     }
-
     .banner #titulo h2 {
         margin-top: 35px;
         margin-block-end: 20px;
         font-size: 45px;
         line-height: 45px;
     }
-
     .banner #titulo button {
         margin-left: 0;
         font-size: 38px;
@@ -304,39 +329,33 @@ a {
         width: 120%;
         height: 15%;
     }
-    
     .catalogoCursosBanner {
         margin: 0 auto;
         padding: 0 auto;
         margin-top: 30%;
         background-color: white;
     }
-
-    .catalogoCursosBanner div{
+    .catalogoCursosBanner div {
         padding-right: 30%;
     }
-
-    .catalogoCursosBanner #ultima{
+    .catalogoCursosBanner #ultima {
         padding-right: 0;
     }
-    .catalogoCursosBanner h4{
-    font-size: 38px;
-    line-height: 30px;
+    .catalogoCursosBanner h4 {
+        font-size: 38px;
+        line-height: 30px;
     }
-
-    .catalogoCursosBanner p{
+    .catalogoCursosBanner p {
         width: 100%;
         height: 65%;
         font-size: 35px;
         line-height: 30px;
     }
-
-    .catalogoCursosBanner button{
+    .catalogoCursosBanner button {
         font-size: 35px;
         line-height: 30px;
         width: 110%;
     }
-
     .comentarios {
         margin: 5%;
         margin-top: 30%;
@@ -347,7 +366,6 @@ a {
         width: 400%;
         background-color: white;
     }
-    
     .comentarios h4 {
         margin-block-end: 2%;
         font-style: normal;
@@ -356,9 +374,8 @@ a {
         line-height: 43px;
         color: #009688;
         width: 95%;
-        height: 100% ;
+        height: 100%;
     }
-    
     .comentarios h6 {
         font-family: 'Nunito', sans-serif;
         font-style: normal;
@@ -367,12 +384,10 @@ a {
         line-height: 25px;
         color: #000000;
     }
-    
     .comentarios img {
         width: 104px;
         height: 104px;
     }
-    
     .comentarios p {
         margin-left: 3%;
         font-style: normal;
@@ -380,58 +395,46 @@ a {
         font-size: 30px;
         line-height: 33px;
     }
-    
     .comentarios #esquerda {
         width: 45%;
         height: 45%;
         float: right;
     }
-    
     .comentarios #direita {
         width: 45%;
         height: 50%;
         float: left;
     }
-    
     .comentarios #direita #wally {
         display: inline-flex;
         margin-block-end: 6%;
     }
-    
     .comentarios #direita #whoopi {
         display: inline-flex;
         margin-block-end: 6%;
     }
-    
     .comentarios #esquerda #jaden {
         display: inline-flex;
         margin-block-end: 6%;
     }
-    
     .comentarios #esquerda #jane {
         display: inline-flex;
     }
-
-    .maisConteudo h4{
+    .maisConteudo h4 {
         margin-top: 30%;
         width: max-content;
-        
     }
-
-    .maisConteudo h5{
+    .maisConteudo h5 {
         font-size: 35px;
-
     }
-
-    .maisConteudo p{
+    .maisConteudo p {
         font-size: 30px;
         line-height: 29px;
     }
-
-    .maisConteudo #linkpost button{
+    .maisConteudo #linkpost button {
         margin-left: 150%;
         margin-top: 30%;
-font-size: 35px;
-width: 170%;
+        font-size: 35px;
+        width: 170%;
     }
 }
