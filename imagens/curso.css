@@ -1,0 +1,219 @@
+* {
+    color: #FF4081;
+    font-family: 'Ubuntu', sans-serif;
+    padding:0;
+    margin:0;
+    box-sizing: border-box; 
+}
+/* css do cabeçalho*/
+
+header{
+    width: 100%;
+    height: 117px;
+    background-color: #2E948A;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content:space-between;
+    padding: 18px;
+    
+}
+
+li{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    justify-content: flex-start;
+    margin: 37px;
+}
+
+a{
+    text-decoration: none;
+    text-align: left;
+    font-weight: bold;
+}
+
+.lista{
+    display: flex;
+    cursor:pointer;
+}
+
+/*css página*/
+
+h1{
+    width: 512px;
+    height: 126px;
+    font-size: 55px;
+}
+
+h2{
+    font-size: 33px;
+    margin-bottom: 0px;
+}
+
+p{
+    color: black;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.video {
+    cursor: pointer;
+}
+
+#intro {
+    display: flex;
+    margin: 75px 0px 80px 200px;
+}
+
+#texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0px 50px 20px 0px;
+}
+
+#imagem {    
+    margin-top: 20px;
+    
+}
+
+#titulo{
+    margin-bottom: 0px;
+}
+
+.aula{
+    display: flex;
+    margin: -30px 0px 40px 200px;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: -23px 50px 20px 90px;
+}
+
+#aulas{
+    background-color: #f6f6f6;
+    width: 1340px;
+}
+
+.linha{
+    height: 3px;
+    width: 1230px;
+    margin: 0px 30px 100px 87px;
+    background: #C4C4C4;
+}
+
+#aula1{
+    margin-top: 70px;
+    
+}
+.espaco{
+    height: 0px;
+    width: 0px;
+    background: #f6f6f6;
+}
+
+/* css rodapé */
+
+footer{
+    width: 100%;
+    height: 160px;
+    background-color: #2E948A;
+    font-family: 'Ubuntu', sans-serif; 
+    display: flex;
+    justify-content: space-around; 
+    padding: 30px;
+   
+}
+footer li{ 
+    color: white; 
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Ubuntu', sans-serif; 
+    margin: 10px;
+
+}
+footer a{
+    text-decoration: none;
+}
+.lista{
+    cursor:pointer;
+    
+}
+.botao button{
+    cursor: pointer;
+    color: white;
+    background-color:#2E948A;
+    border: 2px solid white; 
+    border-radius: 62px;
+    padding: 8px;
+    width: 230px;
+}
+    
+/* responsividade*/
+
+@media (max-width: 1200px) {
+    header{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+
+    #intro{
+        margin: auto;
+        padding: 20px 0 20px 50px;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    h1{
+        margin: auto; 
+    }
+
+    .aula{ 
+        margin: auto;
+        flex-direction: column-reverse;
+        
+    }
+    .descricao{
+        margin-left: 10px;
+    }
+    video{
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .linha{
+        height: 3px;
+        width: 1230px;
+        margin: 0px 30px 100px 2px;
+        background: #C4C4C4;
+    }   
+
+
+}
+
+@media (max-width: 600px){
+    #intro{
+        margin: auto;
+        flex-direction: column;
+        text-align:left;
+    }
+
+    img{
+        width: auto;
+        height: auto;
+    }
+
+    #aulas p {
+        font-size: 3.5vw;
+    }
+
+    video{
+        width: auto;
+        height: auto;
+    }
+
+}

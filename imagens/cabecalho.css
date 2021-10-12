@@ -1,0 +1,36 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box; 
+}
+
+header{
+    width: 100%;
+    height: 117px;
+    background-color: #2E948A;
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: space-around;
+    padding: 18px;
+    
+}
+
+header li{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    justify-content: flex-start;
+    margin: 37px;
+}
+
+header a{
+    text-decoration: none;
+    text-align: left;
+    font-weight: bold;
+}
+
+.lista{
+    display: flex;
+    cursor:pointer;
+}
+
