@@ -80,10 +80,19 @@ h6{
     font-size: 20px;
     line-height: 23px;
     color: #FFFFFF;
-}
-.botaoVerde:hover{
+
+    border: 2px solid #187a6c ;
+    background: linear-gradient(to right, #FFFFFF 50%, #187a6c 50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
+    transition: all 200ms;
+
     cursor: pointer;
-    background: #187a6c;
+}
+
+.botaoVerde:hover{
+    background-position: left bottom;
+    color: #187a6c;
 }
 .linha {
     height: 5px;
