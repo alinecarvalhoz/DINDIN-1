@@ -253,7 +253,7 @@ img.main{
     /* top: 550px; */
 
     background: #FF4081;
-    border: #FF4081;
+    border: 2px solid #FF4081;
     border-radius: 62px;
     font-family: Ubuntu;
     font-style: normal;
@@ -262,8 +262,21 @@ img.main{
     line-height: 23px;
     text-align: center;
     
-    color: #FFFFFF;   
+    color: #FFFFFF; 
+    
+    background: linear-gradient(to right, #e0e0e0 50%, #FF4081 50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
+    transition: all 200ms;
+
+    cursor: pointer;
 }
+
+.cursos button:hover {
+    background-position: left bottom;
+    color: #FF4081;
+}
+
 
 /* CSS Footer */
 footer{
