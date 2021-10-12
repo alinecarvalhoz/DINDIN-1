@@ -15,7 +15,7 @@ header{
     
 }
 
-li{
+header li{
     display: flex;
     text-decoration: none;
     color: white;
@@ -23,7 +23,7 @@ li{
     margin: 37px;
 }
 
-a{
+header a{
     text-decoration: none;
     text-align: left;
     font-weight: bold;

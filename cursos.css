@@ -122,7 +122,6 @@ footer{
     width: 230px;
 }
 
-
 /* Adequar para dispositivos mobile */
 @media (max-width: 900px){
     header, footer{
