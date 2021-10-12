@@ -85,7 +85,22 @@ input{
     background: #FF4081;
     border-radius: 15px;
     border-color:#FF4081;
-    cursor: pointer; 
+ 
+
+    border: 2px solid #FF4081;
+    background: linear-gradient(to right, #FFFFFF 50%, #FF4081 50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
+    transition: all 200ms;
+
+    cursor: pointer;
+
+}
+
+
+ #botao:hover {
+    background-position: left bottom;
+    color: #FF4081;
 }
 
 footer{
