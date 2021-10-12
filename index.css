@@ -4,58 +4,23 @@
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
 }
-
+main{
+    margin: 1%;
+}
 a {
     text-decoration: none;
     color: #000000;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-
-    width: 100%;
-    height: 117px;
-
-    background-color: #2E948A;
-    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
-}
- 
-header .imagem {
-margin-top: 20px;
-margin-left: 50px;
-}
-
-header .lista li{
-    display: flex;
-    text-decoration: none;
-    color: white;
-    justify-content: flex-start;
-    padding:37px;
-    margin-left: 50px;
-padding-left:40%;
-margin-top: 20px;
-}
-
- header a{
-    text-decoration: none;
-    text-align: left;
-    font-weight: bold;
-}
-
-.lista{
-    display: flex;
-    justify-content: baseline;
-
-
-
-    cursor:pointer;
-}
-
 .banner {
-    margin: 9%;
     display: flex;
     justify-content: space-between;
+
+}
+
+.banner #logobanner img {
+    float: right;
+    margin-left: 160px;
 }
 
 .banner #titulo h1 {
@@ -93,12 +58,13 @@ margin-top: 20px;
 }
 
 .catalogoCursosBanner {
-    padding: 2%;
+    padding: 3%;
+    margin-top: 9%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    background: #F7F7F7;
+
     flex-basis: 100%;
 }
 
@@ -150,7 +116,7 @@ margin-top: 20px;
 .catalogoCursosBanner button {
     justify-content: center;
     align-items: center;
-    margin-left: 5%;
+    margin-left: 4%;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -167,7 +133,9 @@ margin-top: 20px;
 }
 
 .comentarios {
-    margin: 9%;
+    margin: 2%;
+    padding-right: 5%;
+    padding-left: 3%;
     box-sizing: border-box;
     flex-basis: 100%;
 }
@@ -239,12 +207,12 @@ margin-top: 20px;
     margin: 0;
     margin-top: 40%;
     padding-top: 5%;
-    padding-right: 9%;
-    padding-left: 9%;
+    padding-right: 5%;
+    padding-left: 3%;
     align-items: center;
     box-sizing: border-box;
     flex-basis: 100%;
-    background: #F7F7F7;
+
 }
 
 .maisConteudo h4 {
@@ -261,7 +229,7 @@ margin-top: 20px;
     justify-content: stretch;
     align-items: center;
     box-sizing: border-box;
-    background: #F7F7F7;
+    margin-top: 5%;
     flex-basis: 100%;
 }
 
@@ -309,4 +277,161 @@ margin-top: 20px;
     border-radius: 62px;
     width: 289px;
     height: 51px;
+}
+
+@media only screen and (max-width:480px) {
+    *{
+        padding: 0 auto;
+        margin: 2%;
+    }
+
+    .banner #titulo h1{
+        font-size: 65px;
+        line-height: 60px;
+    }
+
+    .banner #titulo h2 {
+        margin-top: 35px;
+        margin-block-end: 20px;
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .banner #titulo button {
+        margin-left: 0;
+        font-size: 38px;
+        line-height: 31px;
+        width: 120%;
+        height: 15%;
+    }
+    
+    .catalogoCursosBanner {
+        margin: 0 auto;
+        padding: 0 auto;
+        margin-top: 30%;
+        background-color: white;
+    }
+
+    .catalogoCursosBanner div{
+        padding-right: 30%;
+    }
+
+    .catalogoCursosBanner #ultima{
+        padding-right: 0;
+    }
+    .catalogoCursosBanner h4{
+    font-size: 38px;
+    line-height: 30px;
+    }
+
+    .catalogoCursosBanner p{
+        width: 100%;
+        height: 65%;
+        font-size: 35px;
+        line-height: 30px;
+    }
+
+    .catalogoCursosBanner button{
+        font-size: 35px;
+        line-height: 30px;
+        width: 110%;
+    }
+
+    .comentarios {
+        margin: 5%;
+        margin-top: 30%;
+        padding-right: 5%;
+        padding-left: 3%;
+        box-sizing: border-box;
+        flex-basis: 100%;
+        width: 400%;
+        background-color: white;
+    }
+    
+    .comentarios h4 {
+        margin-block-end: 2%;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 37px;
+        line-height: 43px;
+        color: #009688;
+        width: 95%;
+        height: 100% ;
+    }
+    
+    .comentarios h6 {
+        font-family: 'Nunito', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 25px;
+        color: #000000;
+    }
+    
+    .comentarios img {
+        width: 104px;
+        height: 104px;
+    }
+    
+    .comentarios p {
+        margin-left: 3%;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 33px;
+    }
+    
+    .comentarios #esquerda {
+        width: 45%;
+        height: 45%;
+        float: right;
+    }
+    
+    .comentarios #direita {
+        width: 45%;
+        height: 50%;
+        float: left;
+    }
+    
+    .comentarios #direita #wally {
+        display: inline-flex;
+        margin-block-end: 6%;
+    }
+    
+    .comentarios #direita #whoopi {
+        display: inline-flex;
+        margin-block-end: 6%;
+    }
+    
+    .comentarios #esquerda #jaden {
+        display: inline-flex;
+        margin-block-end: 6%;
+    }
+    
+    .comentarios #esquerda #jane {
+        display: inline-flex;
+    }
+
+    .maisConteudo h4{
+        margin-top: 30%;
+        width: max-content;
+        
+    }
+
+    .maisConteudo h5{
+        font-size: 35px;
+
+    }
+
+    .maisConteudo p{
+        font-size: 30px;
+        line-height: 29px;
+    }
+
+    .maisConteudo #linkpost button{
+        margin-left: 150%;
+        margin-top: 30%;
+font-size: 35px;
+width: 170%;
+    }
 }
