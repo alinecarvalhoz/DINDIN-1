@@ -190,8 +190,8 @@ footer a{
         height: auto;
     }
 
-    footer{
-        width:110vw;
+    footer, header{
+        width:120vw;
     }
     .lista a li{
         margin: 20px;
