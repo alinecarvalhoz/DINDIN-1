@@ -5,17 +5,53 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-header{
+html {
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+}
+
+.imagem-logo {
+    margin: 0px;
+}
+
+.imagem-logo a {
+    margin: 0px;
+}
+
+.imagem-logo img {
+    margin: 0px;
+}
+
+.column {
+    margin: 0px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Css header */
+
+header {
     width: 100%;
     height: 117px;
     background-color: #2E948A;
     display: flex;
-    font-family: 'Ubuntu', sans-serif;
-    justify-content:space-between;
-    padding: 18px;    
+    justify-content: space-around;
+    padding: 18px;
 }
 
-header li{
+.lista-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
     display: flex;
     text-decoration: none;
     color: white;
@@ -23,24 +59,23 @@ header li{
     margin: 37px;
 }
 
-header li:hover{
+header li:hover {
     color: #38d1c2;
 }
 
-header a{
+.lista a {
     text-decoration: none;
     text-align: left;
     font-weight: bold;
 }
 
-header .lista{
+.lista {
     display: flex;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 main {
     margin: 1%;
-    margin-top: 5%;
 }
 
 a {
@@ -51,6 +86,7 @@ a {
 .banner {
     display: flex;
     justify-content: space-between;
+    margin-top: 10%;
 }
 
 .banner #logobanner img {
@@ -109,8 +145,6 @@ a {
     align-items: center;
     box-sizing: border-box;
     flex-basis: 100%;
-
-    background: #F7F7F7;
 }
 
 .catalogoCursosBanner div {
@@ -127,7 +161,7 @@ a {
 
 .catalogoCursosBanner h4 {
     justify-content: center;
-    width: 115%;
+    width: 100%;
     margin-top: 10%;
     font-style: normal;
     font-weight: bold;
@@ -143,7 +177,7 @@ a {
     margin-block-end: 26px;
     width: 293px;
     height: 60px;
-
+    font-family: Ubuntu;
     font-style: normal;
     font-weight: 300;
     font-size: 17px;
@@ -168,7 +202,6 @@ a {
     line-height: 23px;
     text-align: center;
     color: #FFFFFF;
-
     border: 2px solid #FF4081;
     background-color: #FF4081;
     box-sizing: border-box;
@@ -179,7 +212,6 @@ a {
     background-size: 200% 100%;
     background-position: bottom right;
     transition: all 200ms;
-
     cursor: pointer;
 }
 
@@ -268,8 +300,6 @@ a {
     align-items: center;
     box-sizing: border-box;
     flex-basis: 100%;
-
-    background: #F7F7F7;
 }
 
 .maisConteudo h4 {
@@ -291,12 +321,22 @@ a {
 }
 
 .maisConteudo #rectangle {
-    width: 319px;
     height: 193px;
 }
 
+.maisConteudoItem {
+    flex: 1;
+    margin-right: 10%;
+}
+
+.maisConteudoLista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .maisConteudo div {
-    padding-right: 10%;
+    padding-right: 3%;
 }
 
 .maisConteudo #ultima {
@@ -305,6 +345,7 @@ a {
 
 .maisConteudo h5 {
     margin: 2%;
+    margin-left: 0px;
     font-style: normal;
     font-weight: bold;
     font-size: 27px;
@@ -315,14 +356,21 @@ a {
 .maisConteudo p {
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 20.68px;
     text-align: left;
 }
 
+#linkpost {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 .maisConteudo #linkpost button {
     margin-top: 101px;
-    margin-left: 425px;
     margin-block-end: 53px;
     font-style: normal;
     font-weight: normal;
@@ -338,8 +386,6 @@ a {
     background-size: 200% 100%;
     background-position: bottom right;
     transition: all 200ms;
-
-    cursor: pointer;
 }
 
 .maisConteudo #linkpost button:hover {
@@ -347,45 +393,44 @@ a {
     color: #FFFFFF;
 }
 
-footer{
+footer {
     width: 100%;
-    height: 160px;
-    background-color: #419488;
-    font-family: 'Ubuntu', sans-serif; 
+    background-color: #2E948A;
+    font-family: 'Ubuntu', sans-serif;
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
     padding: 30px;
-   
 }
 
-footer li{ 
-    color: white; 
+footer li {
+    color: white;
     text-decoration: none;
     list-style-type: none;
-    font-family: 'Ubuntu', sans-serif; 
-    font-weight: bold;
-    margin: 15px;
-
+    font-family: 'Ubuntu', sans-serif;
+    margin: 10px;
 }
 
 footer li:hover {
     color: #38d1c2;
 }
 
-footer a{
+footer a {
     text-decoration: none;
 }
 
-.botao button{
+.lista {
+    cursor: pointer;
+}
+
+.botao button {
     cursor: pointer;
     color: white;
-    background-color:#2E948A;
-    border: 2px solid white; 
+    background-color: #2E948A;
+    border: 2px solid white;
     border-radius: 62px;
     padding: 8px;
-    width: 230px;
-
-    background: linear-gradient(to right, #FFFFFF 50%, #2E948A  50%);
+    width: 100%;
+    background: linear-gradient(to right, #FFFFFF 50%, #2E948A 50%);
     background-size: 200% 100%;
     background-position: bottom right;
     transition: all 200ms;
@@ -393,40 +438,59 @@ footer a{
 
 .botao button:hover {
     background-position: left bottom;
-    color: #2E948A ;
+    color: #2E948A;
 }
-    
-@media only screen and (max-width:480px) {
+
+.botao-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media only screen and (max-width:520px) {
+    footer, header {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        width: 110%;
+        padding: 0px;
+        margin: 0px;
+    }
     * {
         padding: 0 auto;
-        margin: 2%;
+        zoom: 0.95;
     }
-
-    /* header {
-        width: 200%;
-    } */
+    .banner {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
     .banner #titulo h1 {
-        font-size: 65px;
-        line-height: 60px;
+        font-size: 2rem;
+        line-height: 40px;
     }
     .banner #titulo h2 {
         margin-top: 35px;
         margin-block-end: 20px;
-        font-size: 45px;
-        line-height: 45px;
+        font-size: 2rem;
+        line-height: 40px;
     }
     .banner #titulo button {
         margin-left: 0;
-        font-size: 38px;
-        line-height: 31px;
-        width: 120%;
+        font-size: 2rem;
+        line-height: 100%;
+        width: 80%;
         height: 15%;
+        margin-top: 60px;
+        margin-bottom: 36px;
     }
     .catalogoCursosBanner {
         margin: 0 auto;
         padding: 0 auto;
         margin-top: 30%;
         background-color: white;
+        display: flex;
+        flex-direction: column;
     }
     .catalogoCursosBanner div {
         padding-right: 30%;
@@ -435,19 +499,34 @@ footer a{
         padding-right: 0;
     }
     .catalogoCursosBanner h4 {
-        font-size: 38px;
+        font-size: 1.5rem;
         line-height: 30px;
     }
     .catalogoCursosBanner p {
         width: 100%;
         height: 65%;
-        font-size: 35px;
+        font-size: 1.2rem;
         line-height: 30px;
     }
     .catalogoCursosBanner button {
-        font-size: 35px;
-        line-height: 30px;
-        width: 110%;
+        font-size: 1rem;
+        line-height: 20px;
+        width: 50%;
+    }
+    .catalogoCursosBanner img {
+        max-width: 100%;
+    }
+    .catalogoCursosContainer {
+        flex: 1;
+        padding-right: 0px !important;
+    }
+    .catalogoCursosContainer img {
+        object-fit: contain;
+        width: 100%;
+    }
+    .catalogoCursosContainer button {
+        width: 100%;
+        margin: 0px;
     }
     .comentarios {
         margin: 5%;
@@ -456,8 +535,9 @@ footer a{
         padding-left: 3%;
         box-sizing: border-box;
         flex-basis: 100%;
-        width: 400%;
         background-color: white;
+        display: flex;
+        flex-direction: column;
     }
     .comentarios h4 {
         margin-block-end: 2%;
@@ -478,44 +558,57 @@ footer a{
         color: #000000;
     }
     .comentarios img {
-        width: 104px;
-        height: 104px;
+        width: 64px;
+        height: 64px;
     }
     .comentarios p {
         margin-left: 3%;
         font-style: normal;
         font-weight: 300;
-        font-size: 30px;
+        font-size: 1rem;
         line-height: 33px;
     }
     .comentarios #esquerda {
-        width: 45%;
         height: 45%;
-        float: right;
     }
     .comentarios #direita {
-        width: 45%;
         height: 50%;
-        float: left;
     }
     .comentarios #direita #wally {
-        display: inline-flex;
+        display: flex;
         margin-block-end: 6%;
     }
     .comentarios #direita #whoopi {
-        display: inline-flex;
+        display: flex;
         margin-block-end: 6%;
     }
     .comentarios #esquerda #jaden {
-        display: inline-flex;
+        display: flex;
         margin-block-end: 6%;
     }
     .comentarios #esquerda #jane {
-        display: inline-flex;
+        display: flex;
+    }
+    .comentariosContainer {
+        display: flex;
+        flex-direction: column;
+        margin: 0px !important;
+    }
+    .comentariosContainer #direita {
+        display: flex;
+        flex-direction: column;
+        margin: 0px !important;
+    }
+    .comentariosContainer #esquerda {
+        display: flex;
+        flex-direction: column;
+        margin: 0px !important;
+    }
+    .maisConteudo {
+        margin-top: 20%;
     }
     .maisConteudo h4 {
-        margin-top: 30%;
-        width: max-content;
+        margin-top: 5%;
     }
     .maisConteudo h5 {
         font-size: 35px;
@@ -525,9 +618,64 @@ footer a{
         line-height: 29px;
     }
     .maisConteudo #linkpost button {
-        margin-left: 150%;
         margin-top: 30%;
-        font-size: 35px;
-        width: 170%;
+        font-size: 1rem;
+        margin-left: 0px;
+    }
+    .maisConteudoLista {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .maisConteudo div {
+        padding-right: 0px;
+    }
+    #conteudo {
+        display: flex;
+        flex-direction: column;
+    }
+    #logobanner {
+        display: flex;
+        justify-content: center;
+    }
+    #logobanner img {
+        max-width: 75%;
+        margin-left: 0px !important;
+    }
+}
+
+@media only screen and (min-width:521px) and (max-width:700px) {
+    * {
+        zoom: 0.95;
+        ;
+    }
+    header, footer {
+        width: 130%;
+    }
+    .maisConteudo div {
+        margin-right: 4%;
+        width: 100%;
+    }
+    .maisConteudo h4 {
+        margin-top: 3%;
+    }
+}
+
+@media only screen and (min-width:701px) and (max-width:1060px) {
+    * {
+        zoom: 0.95;
+        ;
+    }
+    header, footer {
+        width: 110%;
+    }
+    .maisConteudo div {
+        margin-right: 4%;
+        width: 100%;
+    }
+    .maisConteudo h4 {
+        margin-top: 3%;
     }
 }
