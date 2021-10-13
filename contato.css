@@ -191,7 +191,11 @@ footer a{
     }
 
     
-        
+    img{
+        width: auto;
+        height: auto;
+    }
+    
     #pagina{
         margin: auto;
         padding: 20px 0 20px 50px;
@@ -206,9 +210,14 @@ footer a{
     }
 
     #imagem{
-        width: 200px;
-        height: 200px;
+        width: 180px;
+        height: 180px;
         margin-left: -350px;
+    }
+
+    img{
+        width: auto;
+        height: auto;
     }
 
     input, #mensagem{

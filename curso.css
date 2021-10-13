@@ -220,20 +220,26 @@ footer a{
     
 /* responsividade*/
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
     header, footer{
         flex-wrap: wrap;
         justify-content: center;
         height: auto;
     }
 
+    
     #intro{
         margin: auto;
         padding: 20px 0 20px 50px;
         flex-direction: column;
         text-align: center;
-        
     }
+
+    img{
+        width: auto;
+        height: auto;
+    }
+
     h1{
         margin: auto; 
     }
