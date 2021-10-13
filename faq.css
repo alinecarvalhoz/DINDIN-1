@@ -82,7 +82,6 @@ float: right;
 
 .perguntas {
     margin-top: 5%;
-    background-color: #F7F7F7;
 }
 
 .perguntas #p1 {
@@ -245,4 +244,22 @@ footer a{
 .botao button:hover {
     background-position: left bottom;
     color: #2E948A ;
+}
+footer .imagem{
+    width: 90%;
+}
+
+@media only screen and (max-width:480px) {
+    *{
+        zoom:0.9;
+    }
+
+    header, footer {
+        width: 120%;
+    }
+
+    .ilustrablog{
+        height: 70%;
+
+    }
 }
