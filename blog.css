@@ -25,6 +25,10 @@ header li{
     margin: 37px;
 }
 
+header li:hover{
+    color: #38d1c2;
+}
+
 header a{
     text-decoration: none;
     font-weight: bold;
@@ -115,8 +119,13 @@ footer li{
     text-decoration: none;
     list-style-type: none;
     font-family: 'Ubuntu', sans-serif; 
+    font-weight: bold;
     margin: 10px;
 
+}
+
+footer li:hover {
+    color: #38d1c2;
 }
 
 footer a{
@@ -131,6 +140,16 @@ footer a{
     border-radius: 62px;
     padding: 8px;
     width: 230px;
+
+    background: linear-gradient(to right, #FFFFFF 50%, #2E948A  50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
+    transition: all 200ms;
+}
+
+.botao button:hover {
+    background-position: left bottom;
+    color: #2E948A ;
 }
     
 
