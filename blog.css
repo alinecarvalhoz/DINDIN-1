@@ -17,16 +17,13 @@ header{
     
 }
 
+
 header li{
     display: flex;
     text-decoration: none;
     color: white;
     justify-content: flex-start;
     margin: 37px;
-}
-
-header li:hover{
-    color: #38d1c2;
 }
 
 header a{
@@ -40,9 +37,11 @@ header a{
 }
 
 .parte1{
-    margin-left: 275px;
+    
     padding-top: 70px;
-    width: 450px      
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
 }
 .parte1 h1{
     color:#009688;
@@ -51,57 +50,29 @@ header a{
 
 .parte1 div p{
     font-size: 20px;
+    width: 50%;
 }
 
 .ilustrablog{
-   position: absolute;
-   width: 405px;
    height: 405px;
-   left: 825px;
-   top: 165px;
-}
 
+}
+.row h1{
+    color:#FF4081;
+}
 /* flex-wrap:wrap; chegar fim da linha e quebra*/
 
-.flex{
+.image-row{
     display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
+    flex-direction: row;
+    width:100%;
 }
-
-.flex div{
-    margin: 80px;
-}
-
-.flex div h1{
-    color: #FF4081;
-}
-
-.flex2{
+.row{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom:36px;
 }
 
-.flex2 div{
-    margin: 80px;
-}
-
-.flex2 div h1{
-    color: #FF4081;
-}
-
-.flex3{
-    display: flex;
-    justify-content: space-between;
-}
-
-.flex3 div{
-    margin: 80px;
-}
-
-.flex3 div h1{
-    color: #FF4081;
-}
 
 footer{
     width: 100%;
@@ -119,13 +90,8 @@ footer li{
     text-decoration: none;
     list-style-type: none;
     font-family: 'Ubuntu', sans-serif; 
-    font-weight: bold;
     margin: 10px;
 
-}
-
-footer li:hover {
-    color: #38d1c2;
 }
 
 footer a{
@@ -150,6 +116,60 @@ footer a{
 .botao button:hover {
     background-position: left bottom;
     color: #2E948A ;
-}
-    
+}  
 
+.info{
+    margin-left:50px;
+    width:40%;
+}
+.info img{
+    width: 100%;
+}
+
+main{
+    padding:3%;
+    margin-top:10%;
+}
+
+/* responsividade*/
+
+@media (max-width: 600px){
+    header, footer{
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+   
+    header{
+        width: 100%;     
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .image-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .image-row img{
+        position: relative;
+        width: 70%;
+        left:0px;
+        top:0px
+         
+    }
+    img{
+        width: 100%;
+    }
+    .info{
+        width:85%;
+    }
+
+    .parte1{
+        
+        padding-top: 70px;
+        width: 100%;
+        margin-left: 50px;   
+    }
+}
