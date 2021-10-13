@@ -12,7 +12,7 @@ header{
     background-color: #2E948A;
     display: flex;
     font-family: 'Ubuntu', sans-serif;
-    justify-content:space-between;
+    justify-content:space-around;
     padding: 18px;    
 }
 
