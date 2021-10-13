@@ -195,6 +195,8 @@ img.main{
     font-size: 20px;
     line-height: 23px;
     text-align: center;
+    transition: all 200ms;
+    cursor: pointer;
 <<<<<<< HEAD
     margin-bottom: 98px;    
     color: #FFFFFF;   
