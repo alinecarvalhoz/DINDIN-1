@@ -95,12 +95,12 @@ p{
 
 #aulas{
     background-color: #f6f6f6;
-    width: 1340px;
+    width: auto;
 }
 
 .linha{
     height: 3px;
-    width: 1230px;
+    width: auto;
     margin: 0px 30px 100px 87px;
     background: #C4C4C4;
 }
@@ -220,8 +220,8 @@ footer a{
     
 /* responsividade*/
 
-@media (max-width: 1200px) {
-    header, footer {
+@media (max-width: 900px) {
+    header, footer{
         flex-wrap: wrap;
         justify-content: center;
         height: auto;
@@ -265,16 +265,9 @@ footer a{
     #intro{
         margin: auto;
         flex-direction: column;
-        text-align:left;
+        text-align:left
     }
-
-    footer{
-        width:100%;
-    }
-    .lista a li{
-        margin: 20px;
-    }
-
+    
     img{
         width: auto;
         height: auto;
@@ -287,6 +280,10 @@ footer a{
     video{
         width: auto;
         height: auto;
+    }
+
+    .linha{
+        width: 100vw;
     }
 
 }
