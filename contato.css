@@ -158,7 +158,7 @@ footer a{
     
 /*responsividade*/
 @media (max-width: 1200px){
-    header{
+    header, footer{
         flex-wrap: wrap;
         justify-content: center;
         height: auto;
@@ -188,6 +188,13 @@ footer a{
         flex-wrap: wrap;
         justify-content: center;
         height: auto;
+    }
+
+    footer, header{
+        width:120vw;
+    }
+    .lista a li{
+        margin: 20px;
     }
     
     #pagina{
