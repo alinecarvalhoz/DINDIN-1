@@ -20,6 +20,11 @@ li{
     justify-content: flex-start;
     margin: 37px;
 }
+
+header li:hover{
+    color: #38d1c2;
+}
+
 .lista a{
     text-decoration: none;
     text-align: left;
@@ -182,7 +187,7 @@ img.main{
     height: 62.81px;
     margin-bottom: 98px;
     background: #FF4081;
-    border: #FF4081;
+    border: 2px solid #FF4081;
     border-radius: 62px;
     font-family: Ubuntu;
     font-style: normal;
@@ -190,9 +195,27 @@ img.main{
     font-size: 20px;
     line-height: 23px;
     text-align: center;
+<<<<<<< HEAD
     margin-bottom: 98px;    
     color: #FFFFFF;   
+=======
+    
+    color: #FFFFFF; 
+    
+    background: linear-gradient(to right, #e0e0e0 50%, #FF4081 50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
+    transition: all 200ms;
+
+    cursor: pointer;
 }
+
+.cursos button:hover {
+    background-position: left bottom;
+    color: #FF4081;
+>>>>>>> 924ff1048c1e87417c7a868a2b035eee7faf872d
+}
+
 
 /* CSS Footer */
 footer{
@@ -207,8 +230,14 @@ footer{
     color: white; 
     text-decoration: none;
     list-style-type: none;
+    font-weight: bold;
     margin: 10px;
 }
+
+footer li:hover {
+    color: #38d1c2;
+}
+
 .lista2 a{
     text-decoration: none;
 }
@@ -223,6 +252,16 @@ footer{
     border-radius: 62px;
     padding: 8px;
     width: 230px;
+
+    background: linear-gradient(to right, #FFFFFF 50%, #2E948A  50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
+    transition: all 200ms;
+}
+
+.botao button:hover {
+    background-position: left bottom;
+    color: #2E948A ;
 }
 
 /*Adequar para dispositivos mobile*/

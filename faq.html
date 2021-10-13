@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <script src="https://kit.fontawesome.com/abd4767deb.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="faq.css">
+
+    <link rel="shortcut icon" type="imagex/png" href="imagens/logo-inteira (2).ico">
+
+    <title>dindin | Perguntas Frequentes</title>
+</head>
+
+<body>
+
+        <!-- Início do Cabeçalho -->
+        <header>
+            <div class="imagem">
+                <a href="index.html" id="logobanner"><img src="./imagens/logo-header.png" alt=" Logo da header "
+                        title=" Logo da header " /></a>
+            </div>
+            <div>
+                <ul class="lista">
+                    <a href="cursos.html">
+                        <li>CURSOS</li>
+                    </a>
+                    <a href="blog.html">
+                        <li>BLOG</li>
+                    </a>
+                    <a href="contato.html">
+                        <li>CONTATO</li>
+                    </a>
+                </ul>
+            </div>
+        </header>
+        <!-- Fim do Cabeçalho -->
+
+    <main>
+        <section class="enunciado">
+           <div>
+                <h1>Perguntas Frequentes</h1>
+            <p>Nessa página reunimos as respostas para as mais frequentes perguntas que recebemos. Caso sua dúvida não
+                foi respondida, pode entrar em contato com o time da DinDin <a href="contato.html">clicando aqui.</a>
+            </p>
+        </div>
+            <div>
+                <img class="ilustrablog" src="imagens/ilustra-blog.png" />
+            </div>
+        </section>
+
+        <section class="perguntas">
+            <div onclick="displayAbout()" id="p1">
+                <h3> <i id="animation1" class="fas fa-chevron-right"></i> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam numquam provident excepturi rerum,
+                    quas, quibusdam similique, ipsam facilis sed dignissimos optio nobis eos sunt? Eveniet corrupti
+                    doloribus ea nobis omnis?</h3>
+            </div>
+            
+            <div style="display: none;" id="r1">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, deleniti.</p>
+            </div>
+            <div onclick="displayAbout2()" id="p2">
+                <h3> <i id="animation2" class="fas fa-chevron-right"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum reprehenderit voluptates molestiae
+                    autem?</h3>
+            </div>
+            <div style="display: none;" id="r2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, deleniti.</p>
+            </div>
+            <div onclick="displayAbout3()" id="p3">
+                <h3><i id="animation3" class="fas fa-chevron-right"></i> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum, qui?</h3>
+            </div>
+            <div style="display: none;" id="r3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, deleniti.</p>
+            </div>
+            <div onclick="displayAbout4()" id="p4">
+                <h3> <i id="animation4" class="fas fa-chevron-right"></i> Lorem ipsum, dolor sit amet consectetur adipisicing elit?</h3>
+            </div>
+            <div style="display: none;" id="r4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, deleniti.</p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function displayAbout(){
+            var arrow = document.getElementById('animation1');
+            arrow.classList.toggle('rotate');
+            var display = document.getElementById('r1');
+            display.classList.toggle('active');
+        }
+
+        function displayAbout2(){
+            var arrow = document.getElementById('animation2');
+            arrow.classList.toggle('rotate');
+            var display = document.getElementById('r2');
+            display.classList.toggle('active');
+        }
+
+        function displayAbout3(){
+            var arrow = document.getElementById('animation3');
+            arrow.classList.toggle('rotate');
+            var display = document.getElementById('r3');
+            display.classList.toggle('active');
+        }
+
+        function displayAbout4(){
+            var arrow = document.getElementById('animation4');
+            arrow.classList.toggle('rotate');
+            var display = document.getElementById('r4');
+            display.classList.toggle('active');
+        }
+    </script>
+
+ <!-- Inicio do Rodapé -->
+ <footer>
+    <div class imagem>
+    <a href="index.html" id="logobanner"><img src="imagens/logo-footer.png" alt=" Logo do footer " title=" Logo do footer" /></a>
+    </div>
+
+    <div>
+        <ul class=" lista2 ">
+        <a href="cursos.html ">
+            <li>CURSOS</li>
+        </a>
+        <a href="blog.html ">
+            <li>BLOG</li>
+        </a>
+        <a href="contato.html ">
+            <li>CONTATO</li>
+        </a>
+    </ul>
+    </div>
+
+    <div>
+        <div class="botao">
+            <button>Quero ser prof!</button>
+            <br>
+            <br>
+           <a href="faq.html"></a> <button>Perguntas Frequentes</button> </a>
+        </div>
+
+
+    </div>
+</footer>
+<!-- Fim do Rodapé  -->
+</body>
+
+</html>

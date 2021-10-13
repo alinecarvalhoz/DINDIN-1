@@ -24,6 +24,10 @@ li{
     margin: 37px;
 }
 
+header li:hover{
+    color: #38d1c2;
+}
+
 a{
     text-decoration: none;
     text-align: left;
@@ -85,7 +89,22 @@ input{
     background: #FF4081;
     border-radius: 15px;
     border-color:#FF4081;
-    cursor: pointer; 
+ 
+
+    border: 2px solid #FF4081;
+    background: linear-gradient(to right, #FFFFFF 50%, #FF4081 50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
+    transition: all 200ms;
+
+    cursor: pointer;
+
+}
+
+
+ #botao:hover {
+    background-position: left bottom;
+    color: #FF4081;
 }
 
 footer{
@@ -103,9 +122,14 @@ footer li{
     color: white; 
     text-decoration: none;
     list-style-type: none;
-    font-family: 'Ubuntu', sans-serif; 
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold; 
     margin: 10px;
 
+}
+
+footer li:hover {
+    color: #38d1c2;
 }
 
 footer a{
@@ -120,6 +144,16 @@ footer a{
     border-radius: 62px;
     padding: 8px;
     width: 230px;
+
+    background: linear-gradient(to right, #FFFFFF 50%, #2E948A  50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
+    transition: all 200ms;
+}
+
+.botao button:hover {
+    background-position: left bottom;
+    color: #2E948A ;
 }
     
 /*responsividade*/

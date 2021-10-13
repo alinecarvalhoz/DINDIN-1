@@ -21,6 +21,11 @@ li{
     justify-content: flex-start;
     margin: 37px;
 }
+
+header li:hover{
+    color: #38d1c2;
+}
+
 .lista a{
     text-decoration: none;
     text-align: left;
@@ -80,10 +85,19 @@ h6{
     font-size: 20px;
     line-height: 23px;
     color: #FFFFFF;
-}
-.botaoVerde:hover{
+
+    border: 2px solid #187a6c ;
+    background: linear-gradient(to right, #FFFFFF 50%, #187a6c 50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
+    transition: all 200ms;
+
     cursor: pointer;
-    background: #187a6c;
+}
+
+.botaoVerde:hover{
+    background-position: left bottom;
+    color: #187a6c;
 }
 .linha {
     height: 5px;
@@ -105,7 +119,13 @@ footer{
     text-decoration: none;
     list-style-type: none;
     margin: 10px;
+    font-weight: bold;
 }
+
+footer li:hover {
+    color: #38d1c2;
+}
+
 .lista2 a{
     text-decoration: none;
 }
@@ -120,6 +140,16 @@ footer{
     border-radius: 62px;
     padding: 8px;
     width: 230px;
+
+    background: linear-gradient(to right, #FFFFFF 50%, #2E948A  50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
+    transition: all 200ms;
+}
+
+.botao button:hover {
+    background-position: left bottom;
+    color: #2E948A ;
 }
 
 /* Adequar para dispositivos mobile */
