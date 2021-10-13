@@ -38,11 +38,6 @@ body {
 }
 
 h1 { 
-    /* /* position: absolute; */
-    /* width: 758px;
-    height: 46px;
-    left: 106px;
-    top: 228px; */
     font-family: Ubuntu;
     font-style: normal;
     font-weight: 500;
@@ -57,13 +52,9 @@ h1 {
 }
 
 .data {
-    margin-top: 30px;
+    margin-top: -30px;
     margin-bottom: 74px;
-    /* /* position: absolute; */
     width: auto;
-    /* height: 21px;
-    left: 414px;
-    top: 286px; */
     font-family: Ubuntu;
     font-style: normal;
     font-weight: 300;
@@ -72,20 +63,13 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #9D9D9D;
-    
+    color: #9D9D9D;    
 }
 
 .container {
-    /* /* position: absolute; */
-    /* width: 1032px;
-    height: 1061px;
-    left: 204px;
-    top: 910px; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
     font-family: Ubuntu;
     font-style: normal;
     font-weight: 300;
@@ -93,8 +77,7 @@ h1 {
     line-height: 21px;
     font-feature-settings: 'kern' off;
     color: #000000;
-    margin: 0px 204px 0px 204px;
-    
+    margin: 0px 204px 0px 204px;    
 }
 
 .container p {
@@ -103,14 +86,10 @@ h1 {
 }
 
 img.main{
-    /* position: absolute; */
-    /* width: 1032px;
-    height: 465px;
-    top: 381px; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-}
+ } 
 
 .foto{
     margin-left: 204px;
@@ -119,15 +98,9 @@ img.main{
 }
 
 .textos {
-    /* position: absolute; */
-    /* width: 1032px;
-    height: 1061px;
-    /* left: 204px; */
-    /* top: 910px; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
     font-family: Ubuntu;
     font-style: normal;
     font-weight: 300;
@@ -143,78 +116,42 @@ img.main{
 }
 
 .cursos {
-    /* position: absolute; */
-    /* width: 1440px;
-    height: 899px;
-    left: 0px;
-    top: 2900px; */
     display: flex;
-    /* flex-direction: column;
-    justify-content: space-around; */
-
-    background: #e0e0e0;    
+    background: #F7F7F7;;    
 }
-
 
 .cursos h2 { 
     position: absolute;
-    /* width: 528px;
-    height: 57px;
-    left: 456px;
-    top: 79x; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-around; */
-    /* height: 60px; */
-    /* flex: none; */
-    margin: 10px;
-    
+    margin: 10px;    
     font-family: Ubuntu;
     font-style: normal;
     font-weight: 500;
     font-size: 50px;
-    /* line-height: 57px; */
     display: flex;
-    /* margin-bottom: 9%; */
-    align-items: center;
-    
+    align-items: center;    
     color: #FF4081;
-    /* width: 100%; */
-    margin-top: 35px;
+    margin-top: 50px;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* margin-bottom: 763px;
-    margin-top: auto;
-    margin-left: 456px;
-    margin-right: 456px; */
 }
 
 .cursos h3 {
-    /* position: absolute; */
-    /* width: 344px;
-    height: 35.71px;
-    top: 310px; */
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    
+    justify-content: space-around;    
     font-family: Ubuntu;
     font-style: normal;
     font-weight: bold;
     font-size: 25px;
     line-height: 29px;
     text-align: center;
-
     color: #FF4081;
     width: 100%;
-
     padding: 5%;
 }
 
 .cursos .curso{
-
-
-    padding: 3%;
+    padding: 1%;
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
@@ -226,14 +163,9 @@ img.main{
 }
 
 .cursos .curso p{
-    /* position: absolute; */
-    /* width: 293px;
-    height: 73.89px;
-    top: 400px; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-
     font-family: Ubuntu;
     font-style: normal;
     font-weight: 300;
@@ -242,16 +174,13 @@ img.main{
     text-align: center;
     color: #000000;
     width: 100%;
-
-    padding: 10%;
+    padding: 5%;
 }
 
 .cursos button {
-    /* position: absolute; */
     width: 233px;
     height: 62.81px;
-    /* top: 550px; */
-
+    margin-bottom: 98px;
     background: #FF4081;
     border: #FF4081;
     border-radius: 62px;
@@ -261,7 +190,7 @@ img.main{
     font-size: 20px;
     line-height: 23px;
     text-align: center;
-    
+    margin-bottom: 98px;    
     color: #FFFFFF;   
 }
 
@@ -305,11 +234,9 @@ footer{
     }
     .container {
         margin: auto;
-
         display: flex;
         flex-direction: column;
         align-items: center;
-
     }
 
     .lista {
@@ -323,7 +250,6 @@ footer{
     .textos{
         padding: 5%;
     }
-
 
     .cursos {
         display: flex;
@@ -342,55 +268,8 @@ footer{
         display: flex;
         padding: 10%;
     }
-/*
-    .cursos h3 {
-        display: flex;
-        flex-direction: column;  
-        width: 360px;
-        left: 0;
-        font-size: revert;
-    } */
-   
-    /* .cursos p {
-        display: flex;
-        flex-direction: column;
-        width: 360px;
-        left: 0;
-    } */
+
 }
 
-/* *{
-    padding:0;
-    margin:0;
-    box-sizing: border-box; 
-}
 
-header{
-    width: 100%;
-    height: 117px;
-    background-color: #2E948A;
-    display: flex;
-    font-family: 'Ubuntu', sans-serif;
-    justify-content: space-around;
-    padding: 18px;
-    
-}
 
-li{
-    display: flex;
-    text-decoration: none;
-    color: white;
-    justify-content: flex-start;
-    margin: 37px;
-}
-
-a{
-    text-decoration: none;
-    text-align: left;
-    font-weight: bold;
-}
-
-.lista{
-    display: flex;
-    cursor:pointer;
-} */
