@@ -338,6 +338,8 @@ a {
     background-size: 200% 100%;
     background-position: bottom right;
     transition: all 200ms;
+
+    cursor: pointer;
 }
 
 .maisConteudo #linkpost button:hover {
