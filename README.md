@@ -24,3 +24,5 @@ Para a realização deste projeto, a DINDIN contou com a ajuda do time de desenv
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anacarlafp/)](https://www.linkedin.com/in/anacarlafp/) Ana Carla Farias Pardo
 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/mirella-duarte-aa3527208/)](https://www.linkedin.com/in/mirella-duarte-aa3527208/) Mirella Eduarda de Lima Duarte 
+
+Projeto oficial: https://github.com/mirelladrt/DINDIN
